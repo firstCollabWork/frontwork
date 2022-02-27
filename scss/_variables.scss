@@ -1,0 +1,13 @@
+@use "sass:math";
+$primary-color: hsl(192, 70%, 51%);
+$primary-linear-gradient-color: hsl(136, 65%, 51%);
+$white: #fff;
+$box-shadow-color: rgb(222, 221, 221);
+$nav-text-color: rgb(159, 158, 158);
+$margin: 8rem;
+$margin-sm: math.div($margin, 2);
+$margin-s: math.div($margin-sm, 2);
+$primary-border-radius: $margin-s;
+$banner-background: lighten($box-shadow-color, 13%);
+$features-bg-color: hsl(0, 0%, 98%);
+$footer-bg: hsl(235, 26%, 18%);

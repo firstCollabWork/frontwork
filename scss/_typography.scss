@@ -1,0 +1,22 @@
+@use "sass:math";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
+
+body {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+$primary-font: 1rem;
+$secondary-font: $primary-font * 3;
+$tetiary-secondary-font: $primary-font * 2;
+$author-font: math.div($primary-font, 2);
+$paragraph-font: 0.8rem;
+$tetiary-font: 1.5rem;
+
+@mixin paragraph {
+  line-height: 1rem;
+  word-spacing: 0.05rem;
+  letter-spacing: 0.005rem;
+  font-weight: 300;
+}
